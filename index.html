@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Text Encryptor</title>
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logos">
+            <img src="images/oracle+alura-logo.svg" alt="Oracle+Alura Logo">
+        </div>
+        <div class="title">
+            <h1>&#60 Text encryptor &#62</h1>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <section class="text-section">
+                <div class="input-box">
+                    <div class="shape" id="input-box">
+                        <textarea type="text" id="input-text" class="text-areas" placeholder="Type the text you want to encrypt or decrypt"></textarea>
+                    </div>
+                    <p>*Only lowercase letters and no accent marks</p>
+                </div>
+
+                <div class="padlock-box">
+                    <img id="padlock-1" src="Images/padlock-1.png" alt="open padlock">
+                    <img id="padlock-2" src="Images/padlock-2.png" alt="closed padlock" class="hideElement">
+                </div>
+
+                <div class="shape">
+                    <textarea type="text" id="display-textbox" class="text-areas hideElement"></textarea>
+                    <div id="empty-inputbox" class="empty-inputbox">
+                        <p id="error"></p>
+                        <img src="images/Muñeco.png" alt="a person looking for message">
+                    </div>
+                </div>
+            </section>
+
+            <section class="buttons-section">
+                <button type="button" id="encryptButton" class="buttons"> Encrypt </button>
+                <button type="button" id="decryptButton" class="buttons"> Decrypt </button>
+                <button type="button" id="copyButton" class="buttons hideElement"> Copy </button>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contact-data">
+            <a href="https://www.linkedin.com/in/idania-de-jes%C3%BAs-guerrero-fonseca-a74b23138/" target="_blank"><img class="contact-logos" src="images/linkedin-logo.png"></a>
+            <a href="https://github.com/IdaniaGF" target="_blank"><img class="contact-logos" src="images/github-logo.png"></a>
+        </div>
+    </footer>
+    <script src="encrypt-decrypt.js"></script>
+</body>
+
+</html>

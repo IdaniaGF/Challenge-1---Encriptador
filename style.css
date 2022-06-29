@@ -1,0 +1,188 @@
+body {
+    background-image: url("Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F7E2EB;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    margin: 0 0 1vw 0;
+    position: relative;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logos img {
+    max-width: 10%;
+    padding: 1vw;
+    opacity: 0.5;
+    flex: 10%;
+}
+
+.title {
+    display: block;
+    margin: 1vw 0;
+    font: normal 700 6vh 'Kdam Thmor Pro', sans-serif;
+    color: #2D9FA7;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 940px;
+    height: auto;
+    margin: 5px auto;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shape {
+    display: inline-block;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    background-color: #C5D0D1;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 10px 5px 5px darkslategrey;
+}
+
+.text-areas {
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font: normal 600 20px 'Lato', sans-serif;
+    line-height: 150%;
+    color: #576161;
+    text-align: left;
+    background: none;
+    border: none;
+}
+
+.text-areas:focus {
+    outline: none;
+}
+
+.input-box p {
+    margin: 5px auto;
+    font: normal 700 18px 'Lato', sans-serif;
+    color: #555555;
+    text-align: left;
+}
+
+.padlock-box {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+}
+
+.padlock-box img {
+    position: absolute;
+    top: 20%;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.empty-inputbox {
+    position: absolute;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.empty-inputbox img {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.empty-inputbox p {
+    margin: 20px 30px 5px 20px;
+    font: normal 700 20px 'Lato', sans-serif;
+    color: rgb(202, 64, 64);
+    text-align: center;
+}
+
+.buttons-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    margin: 10px;
+    font: normal 700 17px 'Lato', sans-serif;
+    color: #F7E2EB;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2D9FA7;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px darkslategrey;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #619C9C;
+}
+
+.buttons:active {
+    transform: scale(1.05);
+}
+
+
+/*eliminar esta clase*/
+
+.hideElement {
+    visibility: hidden;
+}
+
+.contact-data {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 10px;
+}
+
+.contact-logos {
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin: 5px;
+}
